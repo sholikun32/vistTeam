@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.peta-div {
+    background-color: aquamarine;
+}
+
+.custom-btn {
+    width: 150px !important;
+    background-color: rgb(87, 191, 231);
+}
+
+.custom-btn:hover {
+    background-color: skyblue;
+}
+
+.bi {
+    font-size: 25px;
+}
+
+p.small {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+}
