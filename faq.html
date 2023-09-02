@@ -63,5 +63,49 @@
         }
     </style>
     <!-- End Chatbot -->
+
+    <!-- Footer -->
+    <div class="bg-success">
+        <div class="container container-fluid">
+            <link rel="favicon" href="">
+            <div class="d-flex justify-content-between align-items-center py-4 pb-2">
+                <h4 class="text-light">PAKAI RESYS</h4>
+                <ul class="navbar-nav flex-row">
+                    <li class="link nav-item mx-4"><a href="" class="text-decoration-none text-light">Mobile App</a></li>
+                    <li class="link nav-item mx-4"><a href="" class="text-decoration-none text-light">Community</a></li>
+                    <li class="link nav-item mx-4"><a href="" class="text-decoration-none text-light">Company</a></li>
+                </ul>
+                <ul class="navbar-nav flex-row">
+                    <li class="link nav-item"><a href=""><i class="mx-2 text-light bi bi-twitter"></i></a></li>
+                    <li class="link nav-item"><a href=""><i class="mx-2 text-light bi bi-instagram"></i></a></li>
+                    <li class="link nav-item"><a href=""><i class="mx-2 text-light bi bi-facebook"></i></a></li>
+                    <li class="link nav-item"><a href=""><i class="mx-2 text-light bi bi-whatsapp"></i></a></li>
+                    <li class="link nav-item"><a href=""><i class="mx-2 text-light bi bi-discord"></i></a></li>
+                </ul>
+            </div>
+            <div class="bg-warning rounded">
+                <hr class="p-0 m-0" style="height: 10px;">
+            </div>
+            <p class="text-light text-center pb-4 pt-2 small">&copy; PAKAI Resys. 2023</p>
+        </div>
+    </div>
+    <!-- End Footer -->
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Mengecilkan Chatbox Dialogflow -->
+<script>
+    //To minimise the height of chatbox
+    $(document).ready(function() {
+        window.addEventListener('dfMessengerLoaded', function (event) {
+        $r1 = document.querySelector("df-messenger");
+        $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+        $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+        var sheet = new CSSStyleSheet;
+        // manage box height from here
+        sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px }`);
+        $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
+        });
+    });
+</script>
 </html>
