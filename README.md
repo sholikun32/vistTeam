@@ -1,5 +1,6 @@
 # Hi there 👋 , We Are vistTeam!
 
-![image](https://github.com/sholikun32/vistTeam/assets/102804771/2b9bf50a-f48e-4f82-865c-d08d8cb00c56)
+![image](https://github.com/sholikun32/vistTeam/assets/102804771/c05bf850-c306-481d-bcdf-7965abd3d41b)
+
 
 
