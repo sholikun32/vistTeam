@@ -17,15 +17,6 @@ body {
     background: aquamarine;
 }
 
-.custom-btn {
-    width: 150px !important;
-    background-color: rgb(87, 191, 231);
-}
-
-.custom-btn:hover {
-    background-color: skyblue;
-}
-
 .bi {
     font-size: 25px;
 }
@@ -35,10 +26,10 @@ p.small {
 }
 
 a:hover {
-    opacity: 0.5;
+    opacity: 0.3;
     transition: 0.2s;
 }
 
 .navbar {
-    background: #0c9c67 !important;
+    background: linear-gradient(180deg, #0b8457 10%, rgba(255, 255, 255, 0.1) 100%)
 }
