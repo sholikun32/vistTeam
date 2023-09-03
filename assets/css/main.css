@@ -5,8 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.about-div {
-    background: linear-gradient(180deg, #f0cf3e 10%, #0B8457 100%)
+.about-div img {
+    /* background: linear-gradient(180deg, #f0cf3e 10%, #0B8457 100%); */
+    width: 100%;
+    height: 100%;
 }
 
 .peta-div {
@@ -29,7 +31,7 @@ a:hover {
     opacity: 0.3;
     transition: 0.2s;
 }
-
+/* 
 .navbar {
     background: linear-gradient(180deg, #0b8457 10%, rgba(255, 255, 255, 0) 100%)
-}
+} */
