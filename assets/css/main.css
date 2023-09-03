@@ -5,8 +5,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.about-div {
+    background: linear-gradient(180deg, #ffe15b 10%, rgb(46, 223, 140) 100%)
+}
+
 .peta-div {
-    background-color: aquamarine;
+    background-color: white;
+}
+
+.grafik-div {
+    background: aquamarine;
 }
 
 .custom-btn {
@@ -29,4 +37,8 @@ p.small {
 a:hover {
     opacity: 0.5;
     transition: 0.2s;
+}
+
+.navbar {
+    background: #0c9c67 !important;
 }
